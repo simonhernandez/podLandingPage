@@ -18,10 +18,10 @@ function checkInputs(){
     const emailValue = email.value.trim();
 
     if (emailValue === ''){
-        displayMessage('error', 'Email cannot be blank');
+        displayMessage('error', 'Oops! Email cannot be blank');
         return;
     } else if (!isValid(emailValue)){
-        displayMessage('error', 'Email is not valid');
+        displayMessage('error', 'Oops! Please check your email');
         return;
     } else{
         displayMessage('success','Request successful');
