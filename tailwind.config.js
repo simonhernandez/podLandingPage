@@ -17,6 +17,9 @@ module.exports = {
         body : ['Chivo'],
         heading : ['Chivo'],
       },
+      fontSize : {
+        '5.5xl' : '3.25rem',
+      },
       lineHeight : {
         'title' : '3.875rem',
       },
