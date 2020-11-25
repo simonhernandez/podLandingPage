@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Pod request access landing page</title>
+
+  <!-- TailwindCSS -->
+  <link rel="stylesheet" href="./dist/tailwind.css">
+
+</head>
+<body class="font-body">
+
+  <!-- Pod Header -->
+  <header class="relative bg-dark bg-opacity-90 min-h-screen px-8 py-20 md:bg-opacity-100 md:px-10 md:py-12 lg:px-40 lg:pt-26">
+
+    <!-- Logo -->
+    <a href="#" class="block mb-14 md:mb-16">
+      <img src="./assets/desktop/logo.svg" alt="Pod logo" class="mx-auto md:mx-0">
+    </a>
+
+    <!-- Background Image -->
+    <div class="bg-hero-sm fixed top-0 right-0 w-bg-sm h-bg-sm -z-10 bg-no-repeat bg-cover md:bg-hero-md md:w-bg-md md:z-0 md:h-bg-md lg:bg-hero-lg lg:w-bg-lg lg:h-bg-lg lg:top-0 lg:bottom-0 lg:my-auto"></div>
+
+    <!-- Text Container -->
+    <div class="text-center space-y-8 relative z-10 inline-flex flex-col md:bg-dark md:text-left md:pt-23 md:absolute md:bottom-1/4 md:pr-8 lg:pt-22 lg:pr-22 lg:bottom-text-container lg:space-y-6">
+
+      <h1 class="text-primary uppercase text-2xl font-light md:text-5xl">
+        Publish your podcasts <br>
+        <span class="text-white">everywhere.</span>
+      </h1>
+
+      <p class="text-greyLight font-light md:max-w-md">
+        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+        Apple Podcasts, Google Podcasts, Pocket Casts and more!
+      </p>
+
+      <form id="form" class="relative inline-flex flex-col space-y-6 order-6 md:order-none md:flex-row md:bg-greyDark md:justify-between md:items-center md:space-y-0 md:rounded-full md:p-2 md:max-w-md">
+        <input type="email" name="" id="email" placeholder="Email address" class="bg-greyDark text-white px-8 py-4 rounded-full focus:outline-none">
+        <button type="submit" class="bg-primary px-8 py-4 font-bold rounded-full hover:bg-primaryLight focus:outline-none">Request access</button>
+        <small class="hidden font-bold absolute left-0 right-0 mx-auto -bottom-6 md:left-10 md:right-auto" id="error"></small>
+      </form>
+
+
+      <ul class="inline-flex flex-row justify-between items-center md:max-w-lg">
+        <li class="w-1/5"><img class="mx-auto" src="./assets/desktop/spotify.svg" alt="Spotify Logo"></li>
+        <li class="w-1/5"><img class="mx-auto" src="./assets/desktop/apple-podcast.svg" alt="Apple Podcast Logo"></li>
+        <li class="w-1/5"><img class="mx-auto" src="./assets/desktop/google-podcasts.svg" alt="Google Podcast Logo"></li>
+        <li class="w-1/5"><img class="mx-auto" src="./assets/desktop/pocket-casts.svg" alt="Pocket Cast Logo"></li>
+      </ul>
+
+    </div> <!-- // Text Container -->
+
+    <!-- Dot Pattern Vector -->
+    <img src="./assets/desktop/bg-pattern-dots.svg" alt="A pattern of dots" class="hidden md:block md:absolute md:bottom-0 lg:bottom-dot-pattern lg:right-0">
+
+  </header>
+
+  <!-- Scripts -->
+  <script src="./dist/script.js"></script>
+
+</body>
+</html>
