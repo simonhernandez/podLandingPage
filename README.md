@@ -1,2 +1,2 @@
 # podLandingPage
-This repo showcases my solution to Frontend Mentor's Challenge: Pod Request Access Landing Page
+Single Landing Page that promotes Pod. A service that enables you to upload your Podcast to all streaming platforms with just a click.
